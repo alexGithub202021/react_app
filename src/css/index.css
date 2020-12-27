@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.CallApi{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+}
+
+.CallApi thead{
+  font-size: 14pt;
+}
+
+.CallApi tbody td{
+  padding-left: 10px;
+}

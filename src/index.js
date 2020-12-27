@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Test from './Test';
-// import CallApi from './CallApi';
+// import App from './App';
+// import Test from './Test';
+import CallApi from './CallApi';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     {/* <Test /> */}
-    {/* <CallApi /> */}
+    <CallApi />
   </React.StrictMode>,
   document.getElementById('root')
 );

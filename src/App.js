@@ -1,10 +1,13 @@
 import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 
 function App() {
+  
   fetch('/api/customers')
+  // fetch('/api/products')
     .then((res) => res.json())
     .then(console.log);
+
   return (
     <div className="App">
       <header className="App-header">
